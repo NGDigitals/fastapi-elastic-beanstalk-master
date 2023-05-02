@@ -37,7 +37,7 @@ Check out the [tutorial](https://testdriven.io/blog/fastapi-elastic-beanstalk/).
 1. Run the server:
 
     ```sh
-    (venv)$ uvicorn main:app --reload
+    (venv)$ uvicorn main:app --port 8080 --reload
     ```
 
 1. Navigate to [http://localhost:8000/](http://localhost:8000/) in your favorite web browser.
